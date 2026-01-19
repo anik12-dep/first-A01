@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*sharing*/
+.btn {
+  background-color: #469165;
+  padding: 12.5px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 600;
+}
+header {
+  padding: 16px;
+}
+nav {
+  width: 74%;
+  max-width: 1600px;
+  margin: 0px auto;
+  display: flex;
+}
+.logo img {
+  width: 139px;
+  height: 60px;
+}
+nav ul {
+  margin-left: 380px;
+  gap: 32px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+nav ul li a {
+  font-size: 15.5px;
+  text-decoration: none;
+  color: #000000;
+}
+nav .btn {
+  width: 164px;
+  height: 44px;
+  margin-left: 380px;
+  margin-top: 8px;
+}
+#Sec1 {
+  background: url("../A01/assets/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: 100%;
+  height: 674px;
+  padding: 6px;
+}
+section .sec2 {
+  display: flex;
+  width: 229px;
+  height: 35px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 10px 16px;
+  gap: 10px;
+  font-size: 500;
+  margin: 140px 846px 0 846px;
+  color: #469165;
+}
+.sec2 img {
+  width: 18px;
+  height: 18px;
+}
+.sec2 h5 {
+  font-size: 16px;
+  gap: 10px;
+}
+.sec3 h4 {
+  width: 530px;
+  height: 180px;
+  font-size: 60px;
+  margin-top: 20px;
+  margin-left: 720px;
+  font-weight: 200;
+}
+.sec3 p {
+  width: 660px;
+  height: 60px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+.sec3 .btn {
+  width: 254px;
+  height: 52px;
+  margin-left: 700px;
+  margin-top: 20px;
+}
+/* section id="Mid"*/
+.bot {
+  width: 74%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+.bot h1 {
+  margin: 90px 120px 14px 340px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.bot p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-left: 390px;
+}
+.bot1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  margin-left: -60px;
+  margin-top: 44px;
+}
+.bot1 .bot11 {
+  width: 322px;
+  height: 300px;
+  /*border: 1px solid red;*/
+  box-shadow: 0 0 8px 0 #a7a4a4;
+  padding: 6px;
+}
+.bot1 .bot11 img {
+  background-color: #f95555;
+  width: 60px;
+  height: 60px;
+  padding: 14.46px 15.59px;
+  border-radius: 50%;
+  margin: 69.5px 131px 16px 131px;
+}
+.bot11 h2 {
+  width: 270px;
+  height: 29px;
+  /*border: 1px solid black;*/
+  text-align: center;
+  font-weight: 600;
+  font-size: 26px;
+  color: #001931;
+  margin-bottom: 28px;
+  margin-left: 24px;
+}
+.bot11 p {
+  width: 274px;
+  height: 40px;
+  /*border: 1px solid black;*/
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-left: 24px;
+  text-align: center;
+}
