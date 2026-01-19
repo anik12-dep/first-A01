@@ -53,7 +53,7 @@ nav .btn {
   height: 674px;
   padding: 6px;
 }
-section .sec2 {
+.sec2 {
   display: flex;
   width: 229px;
   height: 35px;
@@ -155,4 +155,120 @@ section .sec2 {
   color: #627382;
   margin-left: 24px;
   text-align: center;
+}
+#Kno {
+  width: 1920px;
+  height: 600px;
+  /*border: 1px solid black;*/
+}
+.kno1 {
+  width: 74%;
+  height: 600px;
+  /*border: 1px solid black;*/
+  margin: 120px 269.3px 120px 230px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 60px;
+}
+.kno11 img {
+  width: 600px;
+  height: 600px;
+}
+.kno12 {
+  width: 750px;
+  height: 396px;
+  /*border: 1px solid rgb(234, 11, 11);*/
+  margin: 102px 0px 102px 10px;
+  justify-content: left;
+}
+.kno12 h3 {
+  width: 750px;
+  height: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #469165;
+}
+.kno12 h1 {
+  width: 750px;
+  height: 116px;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 16px;
+}
+.kno12 p {
+  width: 750px;
+  height: 60px;
+  color: #627382;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.kno12 ul {
+  list-style: none;
+  margin-top: 40px;
+}
+.kno12 ul li {
+  width: 750px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+/*last section*/
+#Last {
+  /*border: 1px solid #469165;*/
+  padding: 10px;
+}
+
+.last1 {
+  width: 76%;
+  height: 506px;
+  max-width: 1920px;
+  height: 384px;
+  /*border: 1px solid red;*/
+  margin: 120px 230px;
+  background-color: #f7f6f2;
+  padding: 4px;
+}
+.last12 {
+  width: 1340px;
+  height: 112px;
+  /*border: 1px solid red;*/
+  margin-left: 40px;
+  padding: 2px;
+  margin-top: 80px;
+}
+.last12 h1,
+p {
+  text-align: center;
+}
+.last12 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #001931;
+}
+.last12 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #627382;
+  margin-top: 16px;
+}
+.last13 {
+  width: 1340px;
+  height: 112px;
+  /*border: 1px solid red;*/
+  margin-left: 40px;
+  padding: 2px;
+  margin-top: 24px;
+}
+.last13 .btn {
+  margin-left: 573px;
+}
+.last13 p{
+  font-size: 400;
+  font-size: 16px;
+  color: #627382;
+  margin-top: 16px;
 }
