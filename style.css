@@ -11,6 +11,12 @@
   border-radius: 4px;
   color: #ffffff;
   font-size: 600;
+  
+}
+.btn:hover{
+  color: #000000;
+  background-color: #f95555;
+  cursor: pointer;
 }
 header {
   padding: 16px;
@@ -94,6 +100,11 @@ nav .btn {
   height: 52px;
   margin-left: 700px;
   margin-top: 20px;
+}
+.sec3 .btn:hover{
+ color: #000000;
+  background-color: #f95555 !important;
+  cursor: pointer;
 }
 /* section id="Mid"*/
 .bot {
